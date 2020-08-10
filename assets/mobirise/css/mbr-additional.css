@@ -1,21 +1,21 @@
-@import url(https://fonts.googleapis.com/css?family=DM+Sans:400,400i,500,500i,700,700i&display=swap);
-@primaryColor: #133996;
-@secondaryColor: #fc643f;
-@successColor: #00c48c;
-@infoColor: #fdece8;
-@warningColor: #ffcf5c;
-@dangerColor: #939bb4;
-@mainFont: DM Sans;
-@display1Font: 'DM Sans', sans-serif;
-@display1Size: 3.25;
-@display2Font: 'DM Sans', sans-serif;
-@display2Size: 2.125;
-@display5Font: 'DM Sans', sans-serif;
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap);
+@primaryColor: #149dcc;
+@secondaryColor: #ff3366;
+@successColor: #F7ED4A;
+@infoColor: #82786E;
+@warningColor: #879A9F;
+@dangerColor: #B1A374;
+@mainFont: Rubik;
+@display1Font: 'Rubik', sans-serif;
+@display1Size: 4.25;
+@display2Font: 'Rubik', sans-serif;
+@display2Size: 3;
+@display5Font: 'Rubik', sans-serif;
 @display5Size: 1.5;
-@display7Font: 'DM Sans', sans-serif;
-@display7Size: 1.0625;
-@display4Font: 'DM Sans', sans-serif;
-@display4Size: 0.875;
+@display7Font: 'Rubik', sans-serif;
+@display7Size: 1;
+@display4Font: 'Rubik', sans-serif;
+@display4Size: 1;
 @isRoundedButtons: true;
 @isAnimatedOnScroll: false;
 @isScrollToTopButton: false;
@@ -45,6 +45,7 @@ body {
 .display-1 {
     font-family: @display1Font;
     font-size: @display1Size *1rem;
+    font-display: swap;
 
     >.mbr-iconfont {
         font-size: @display1Size *1.6rem;
@@ -54,6 +55,7 @@ body {
 .display-2 {
     font-family: @display2Font;
     font-size: @display2Size *1rem;
+    font-display: swap;
 
     >.mbr-iconfont {
         font-size: @display2Size *1.6rem;
@@ -63,16 +65,17 @@ body {
 .display-4 {
     font-family: @display4Font;
     font-size: @display4Size *1rem;
+    font-display: swap;
 
     >.mbr-iconfont {
         font-size: @display4Size *1.6rem;
-        font-weight: 400;
     }
 }
 
 .display-5 {
     font-family: @display5Font;
     font-size: @display5Size *1rem;
+    font-display: swap;
 
     >.mbr-iconfont {
         font-size: @display5Size *1.6rem;
@@ -82,6 +85,7 @@ body {
 .display-7 {
     font-family: @display7Font;
     font-size: @display7Size *1rem;
+    font-display: swap;
 
     >.mbr-iconfont {
         font-size: @display7Size *1.6rem;
@@ -166,7 +170,7 @@ body {
     @active-background: @color;
     @new-color: if(eq(@color, @active-color),
         #fff,
-        darken(@color, 0%));
+        darken(@color, 20%));
 
     &,
     &:active {
@@ -436,16 +440,16 @@ a.text-black:focus {
 
     &:hover,
     &:focus {
-        box-shadow: none;
+        box-shadow: none !important;
     }
 
     & when (@isRoundedButtons) {
-        border-radius: 10px;
+        border-radius: 100px;
 
         &:hover,
         &:focus {
-            box-shadow: 0 10px 40px 0 rgba(0, 0, 0, .2);
-            -webkit-box-shadow: 0 10px 40px 0 rgba(0, 0, 0, .2);
+            box-shadow: 0 10px 40px 0 rgba(0, 0, 0, .2) !important;
+            -webkit-box-shadow: 0 10px 40px 0 rgba(0, 0, 0, .2) !important;
         }
     }
 }
@@ -493,52 +497,148 @@ a:hover {
 }
 
 .form-control {
-    .display-4;
+    .display-7;
 }
 
 blockquote {
     border-color: @primaryColor;
 }
 
-.btn-primary {
-    margin: 1rem 0.5rem !important;
+/* Forms */
+.mbr-form {
+    .btn {
+        margin: .4rem 0;
+    }
 
-    &:hover,
-    &:focus {
-        // box-shadow: 0 6px 16px 0 @primaryColor  !important;
-        // -webkit-box-shadow: 0 6px 16px 0 @primaryColor  !important;
-        background-color: @secondaryColor !important;
-        border-color: @secondaryColor !important;
+    .input-group-btn a.btn when(@isRoundedButtons) {
+        border-radius: 100px !important;
+
+        // padding: 1rem 3rem;
+        &:hover {
+            box-shadow: 0 10px 40px 0 rgba(0, 0, 0, .2);
+        }
+    }
+
+    .input-group-btn button[type="submit"] when (@isRoundedButtons) {
+        border-radius: 100px !important;
+        padding: 1rem 3rem;
+
+        &:hover {
+            box-shadow: 0 10px 40px 0 rgba(0, 0, 0, .2);
+        }
     }
 }
 
-.btn-secondary {
-    margin: 1rem 0.5rem !important;
+.form2 {
+    .form-control {
+        & when (@isRoundedButtons) {
+            border-top-left-radius: 100px;
+            border-bottom-left-radius: 100px;
+        }
+    }
 
-    &:hover,
-    &:focus {
-        box-shadow: 0 6px 15px 0 @secondaryColor  !important;
-        -webkit-box-shadow: 0 6px 16px 0 @secondaryColor  !important;
-        background-color: @secondaryColor !important;
-        border-color: @secondaryColor !important;
+    .input-group-btn a.btn when(@isRoundedButtons) {
+        border-top-left-radius: 0 !important;
+        border-bottom-left-radius: 0 !important;
+    }
+
+    .input-group-btn button[type="submit"] when(@isRoundedButtons) {
+        border-top-left-radius: 0 !important;
+        border-bottom-left-radius: 0 !important;
     }
 }
 
-.btn-success {
-    color: white !important;
-    margin: 1rem 0.5rem !important;
+.form3 {
+    input[type="email"] when (@isRoundedButtons) {
+        border-radius: 100px !important;
+    }
+}
 
-    &:active {
-        color: white !important;
+@media (max-width: 349px) {
+    .form2 {
+        input[type="email"] when (@isRoundedButtons) {
+            border-radius: 100px !important;
+        }
+
+        .input-group-btn a.btn when (@isRoundedButtons) {
+            border-radius: 100px !important;
+        }
+
+        .input-group-btn button[type="submit"] when (@isRoundedButtons) {
+            border-radius: 100px !important;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .btn {
+        font-size: .75rem !important;
+
+        .mbr-iconfont {
+            font-size: 1rem !important;
+        }
+    }
+}
+
+/* Footer */
+.mbr-footer-content,
+.mbr-footer .mbr-contacts {
+    li {
+        &::before {
+            background: @primaryColor;
+        }
+
+        a:hover {
+            color: @primaryColor;
+        }
+    }
+}
+
+.footer3,
+.footer4 {
+    input[type="email"] when (@isRoundedButtons) {
+        border-radius: 100px !important;
     }
 
-    &:hover,
-    &:focus {
-        color: white !important;
-        box-shadow: 0 6px 15px 0 @successColor  !important;
-        -webkit-box-shadow: 0 6px 16px 0 @successColor  !important;
-        background-color: @successColor !important;
-        border-color: @successColor !important;
+    .input-group-btn a.btn when (@isRoundedButtons) {
+        border-radius: 100px !important;
+    }
+
+    .input-group-btn button[type="submit"] when (@isRoundedButtons) {
+        border-radius: 100px !important;
+    }
+}
+
+/* Headers*/
+.header13,
+.header14 {
+    .form-inline {
+        input[type="email"] when (@isRoundedButtons) {
+            border-radius: 100px;
+        }
+
+        input[type="text"] when (@isRoundedButtons) {
+            border-radius: 100px;
+        }
+
+        input[type="tel"] when (@isRoundedButtons) {
+            border-radius: 100px;
+        }
+
+        a.btn when (@isRoundedButtons) {
+            border-radius: 100px;
+        }
+
+        button when (@isRoundedButtons) {
+            border-radius: 100px !important;
+        }
+    }
+}
+
+@media screen and (~'-ms-high-contrast: active'),
+(~'-ms-high-contrast: none') {
+    .card-wrapper {
+        flex: auto !important;
     }
 }
 
@@ -555,10 +655,6 @@ blockquote {
     transition: 0.4s;
     border-top-color: currentColor;
     border-bottom-color: currentColor;
-}
-
-.jq-number__spin {
-    background-color: #f5f6ff;
 }
 
 .jq-selectbox:hover .jq-selectbox__trigger-arrow,
@@ -599,8 +695,8 @@ iframe.lazy-placeholder,
 .lazy-placeholder:after {
     content: '';
     position: absolute;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     background: transparent no-repeat center;
     background-size: contain;
     top: 50%;
@@ -611,10 +707,10 @@ iframe.lazy-placeholder,
 }
 
 section.lazy-placeholder:after {
-    opacity: 0.5;
+    opacity: 0.3;
 }@isPublish: true;
 
-.cid-s7h7fd4Ckn {
+.cid-s7h9Y8iiJg {
 @paddingTop: 0;
 @paddingBottom: 0;
 @showTitle: false;
@@ -762,7 +858,7 @@ H3 {
 }
 }
 
-.cid-s7gVUFadaq {
+.cid-s7h9ZnY5S5 {
 
 padding-top: (@paddingTop * 15px);
 padding-bottom: (@paddingBottom * 15px);
@@ -773,7 +869,7 @@ background-color: @bgColor;
 }
 }
 
-.cid-s7gVVXEW4S {
+.cid-s7ha0bwn7F {
 @paddingTop: 1;
 @paddingBottom: 0;
 @showTitle: true;
@@ -917,14 +1013,14 @@ a.img {
 }
 }
 
-.cid-s7gVWKaALh {
+.cid-s7ha0Sedda {
 @paddingTop: 0;
 @paddingBottom: 6;
 @showTitle: true;
 @showSubtitle: false;
 @showPhone: true;
 @showTerms: false;
-@uname__10: "file:///C:/Users/bacho/AppData/Local/Mobirise.com/Mobirise/projects/project-2020-08-10_112658/assets/images/background.jpg";
+@uname__10: "file:///C:/Users/bacho/AppData/Local/Mobirise.com/Mobirise/projects/project-2020-08-10_122358/assets/images/background.jpg";
 @uname__11: true;
 @uname__12: #ffffff;
 @bg-value: #ffffff;
