@@ -869,59 +869,17 @@ background-color: @bgColor;
 }
 }
 
-.cid-s7ha0Sedda {
+.cid-sdSf5XAobW {
 @paddingTop: 0;
-@paddingBottom: 6;
-@showTitle: true;
-@showSubtitle: false;
-@showPhone: true;
-@showTerms: false;
-@uname__10: "file:///C:/Users/bacho/Documents/GitHub/washing/assets/images/background.jpg";
-@uname__11: true;
-@uname__12: #ffffff;
-@bg-value: #ffffff;
-@bg-type: "color";
-@bg-color-value: #ffffff;
-@bg-parallax: false;
-@overlay: true;
-@overlayColor: #c1c1c1;
-@overlayOpacity: 0.9;
-
-padding-top: (@paddingTop * 15px);
-padding-bottom: (@paddingBottom * 15px);
-& when (@bg-type = 'color') {
-  background-color: @bg-value;
-}
-& when (@bg-type = 'image') {
-  background-image: url(../../../@bg-value);
-}
-.title {
-  margin-bottom: 2rem;
-}
-.mbr-section-subtitle {
-  color: #767676;
-}
-textarea.form-control {
-  min-height: 188px;
-}
-label {
-  color: #232323;
-}
-.mbr-section-terms {
-  text-align: center;
-}
-}
-
-.cid-sdS3BWPdR9 {
-@paddingTop: 0;
-@paddingBottom: 1;
-@imgthumb: 3;
-@star: 4;
+@paddingBottom: 4;
+@imgthumb: 5;
+@star: 5;
 @showpid: "1";
+@enableshipping: "1";
 @addshipping: "1";
 @enablevat: "1";
-@addvat: "2";
-@taxu: "1";
+@addvat: "1";
+@taxu: "2";
 @bgColor: #ffffff;
 
 padding-top: (@paddingTop * 15px);
@@ -1049,5 +1007,48 @@ DIV {
 .my-cart-icon-affix {
   position: fixed;
   z-index: 999;
+}
+}
+
+.cid-s7ha0Sedda {
+@paddingTop: 0;
+@paddingBottom: 6;
+@showTitle: true;
+@showSubtitle: false;
+@showPhone: true;
+@showTerms: false;
+@uname__10: "file:///C:/Users/bacho/Documents/GitHub/washing/assets/images/background.jpg";
+@uname__11: true;
+@uname__12: #ffffff;
+@bg-value: #ffffff;
+@bg-type: "color";
+@bg-color-value: #ffffff;
+@bg-parallax: false;
+@overlay: true;
+@overlayColor: #c1c1c1;
+@overlayOpacity: 0.9;
+
+padding-top: (@paddingTop * 15px);
+padding-bottom: (@paddingBottom * 15px);
+& when (@bg-type = 'color') {
+  background-color: @bg-value;
+}
+& when (@bg-type = 'image') {
+  background-image: url(../../../@bg-value);
+}
+.title {
+  margin-bottom: 2rem;
+}
+.mbr-section-subtitle {
+  color: #767676;
+}
+textarea.form-control {
+  min-height: 188px;
+}
+label {
+  color: #232323;
+}
+.mbr-section-terms {
+  text-align: center;
 }
 }
