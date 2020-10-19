@@ -1,74 +1,60 @@
 {
   "settings": {
-    "name": "UNAMAR",
+    "name": "Site-08-10_1223",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
       "styling": {
-        "primaryColor": "#07c5f7",
-        "secondaryColor": "#ffffff",
-        "successColor": "#ffffff",
+        "primaryColor": "#149dcc",
+        "secondaryColor": "#ff3366",
+        "successColor": "#F7ED4A",
         "infoColor": "#82786E",
-        "warningColor": "#ffffff",
-        "dangerColor": "#232323",
+        "warningColor": "#879A9F",
+        "dangerColor": "#B1A374",
         "mainFont": "Rubik",
-        "display1Font": "Montserrat",
-        "display1Size": "2",
+        "display1Font": "Rubik",
+        "display1Size": 4.25,
         "display2Font": "Rubik",
-        "display2Size": "2",
+        "display2Size": 3,
         "display5Font": "Rubik",
         "display5Size": 1.5,
         "display7Font": "Rubik",
-        "display7Size": "1.2",
+        "display7Size": 1,
         "display4Font": "Rubik",
-        "display4Size": "1.2",
+        "display4Size": 1,
         "isRoundedButtons": true,
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": false
-      },
-      "additionalSetColors": [
-        "#07c5f7"
-      ]
+      }
     },
     "path": "@PROJECT_PATH@",
+    "versionFirst": "4.12.4",
     "siteFonts": [
       {
         "css": "'Rubik', sans-serif",
         "name": "Rubik",
-        "url": "https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i"
-      },
-      {
-        "css": "'Montserrat', sans-serif",
-        "name": "Montserrat",
-        "url": "https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+        "url": "https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
-    "versionFirst": "4.7.6",
-    "uniqCompNum": 125,
-    "versionPublish": "4.12.4",
     "imageResize": true,
     "favicon": false,
-    "robotsSwitcher": true,
+    "robotsSwitcher": false,
     "sitemapSwitcher": false,
-    "sitemapSwitcherAuto": "on",
+    "sitemapSwitcherAuto": false,
     "siteUrl": false,
     "cookiesAlert": false,
-    "screenshot": "screenshot.png",
-    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\n",
-    "gdpr": {
-      "colorText": "#a7a7a7",
-      "colorLink": "#149dcc",
-      "underlineLink": true,
-      "text": "By continuing you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>."
-    },
-    "witsec-mailform": false
+    "gdpr": false,
+    "witsec-mailform": false,
+    "uniqCompNum": 8,
+    "versionPublish": "4.12.4",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Inicio",
+        "title": "Home",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -200,149 +186,40 @@
             },
             "a.img": {
               "pointer-events": "none"
+            },
+            "H3": {
+              "text-align": "center",
+              "color": "#133996"
             }
           },
-          "_customHTML": "<section class=\"mbr-gallery gallery5\" group=\"Gallery\" data-bg-video=\"{{bg.type=='video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\"> <mbr-parameters> <header>Size</header> <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\"> <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\"> <header>Show/Hide</header> <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\"> <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\"> <input type=\"checkbox\" title=\"Show Text\" name=\"showtext\" checked> <header>Images</header> <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked> <input type=\"checkbox\" title=\"No Spacing\" name=\"noSpacing\" checked> <header>Background</header> <fieldset type=\"background\" name=\"bg\" parallax> <input type=\"image\" title=\"Background Image\" value parallax> <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected> <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\"> </fieldset> <header condition=\"bg.type!==color\">Overlay</header> <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !=='color'\"> <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !=='color'\"> <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !=='color'\"> </mbr-parameters> <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!=='color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"> </div><div mbr-class=\"{'container': !fullWidth}\"> <h3 class=\"mbr-section-title align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><i> DELICIAS DA BARRA</i></h3> <h4 class=\"mbr-section-subtitle align-center pb-4 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\"> Enter Gallery Subtitle here. </h4> <div class=\"row mbr-gallery\" data-toggle=\"modal\"> <div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\"> <div class=\"item-wrapper\"> <a href=\"https://store17441987.ecwid.com/HERVAL-PRODUTOS-NATURAIS-c57385004\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/faxina-5-960x960.png\" alt title> </a><p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showtext\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b><i>BEM VINDO A NOSSA LOJA</i></b></p><center><i><b><div style=\"float: left; width: 33%;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"tel:22997441536\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"96\" data-original-width=\"96\" height=\"50\" src=\"@PROJECT_PATH@/assets/images/phone-30029-100x100.png\" width=\"50\" alt title></a></div></div><div style=\"float: left; width: 33%;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://wa.me/5522997441536\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"96\" data-original-width=\"96\" height=\"50\" src=\"@PROJECT_PATH@/assets/images/whatsapp-37229-100x100.png\" width=\"50\" alt title></a></div></div><div style=\"float: left; width: 33%;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://www.facebook.com/washingtondehervalbachot.herval.3\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"512\" data-original-width=\"512\" height=\"50\" src=\"@PROJECT_PATH@/assets/images/facebook-108044-100x100.png\" width=\"50\" alt title></a></div></div></b></i></center><i><b><br><br></b></i></div><i><b> <br></b></i></div></div></div></section><i><b><div class=\"list-group\"> <button type=\"button\" class=\"list-group-item list-group-item-action active\" aria-current=\"true\"> NOSSA LOJA TEREMOS </button> <button type=\"button\" class=\"list-group-item list-group-item-action\"> POMADAS MASSAGEADORAS </button> <button type=\"button\" class=\"list-group-item list-group-item-action\"> CHÁS EMAGRECEDOR </button> <button type=\"button\" class=\"list-group-item list-group-item-action\"> MEDICAMENTOS NATURAIS </button> <button type=\"button\" class=\"list-group-item list-group-item-action\" disabled> E MUITO MAIS PARA VOCÊ </button></div></b></i><div class=\"card promoting-card\"> <div class=\"card-body d-flex flex-row\"> <a href=\"https://store17441987.ecwid.com/NEW-GREEN-GOLD-p226611020\"><img src=\"@PROJECT_PATH@/assets/images/1121-03db84bd32f797355015694801240837-1024-10241-9f4e549f422992772a15774165203764-1024-1024-57x50.png\" class=\"rounded-circle mr-3\" height=\"50px\" width=\"50px\" alt=\"avatar\" title></a> <div> <h4 class=\"card-title font-weight-bold mb-2\">New Green</h4> <p class=\"card-text\"><a href=\"https://store17441987.ecwid.com/NEW-GREEN-GOLD-p226611020\">Emagrecedor Rapido</a></p></div></div><div class=\"card promoting-card\"> <div class=\"card-body d-flex flex-row\"> <img src=\"@PROJECT_PATH@/assets/images/hand-leaves-leaf-natural-512-50x50.png\" class=\"rounded-circle mr-3\" height=\"50px\" width=\"50px\" alt=\"avatar\" title> <div> <h4 class=\"card-title font-weight-bold mb-2\">Chás</h4> <p class=\"card-text\">Emagrecedor em Breve</p></div></div></div></div><div class=\"card promoting-card\"> <div class=\"card-body d-flex flex-row\"> <img src=\"@PROJECT_PATH@/assets/images/pp-50x50.jpg\" class=\"rounded-circle mr-3\" height=\"50px\" width=\"50px\" alt=\"avatar\" title> <div> <h4 class=\"card-title font-weight-bold mb-2\">Washington</h4> <p class=\"card-text\"><a href=\"https://www.instagram.com/washingtonbachot/\">Siga meu Instagram</a></p></div></div></div>",
-          "_anchor": "design-block-3d",
+          "_customHTML": "<center>\n<section class=\"mbr-gallery gallery5\" group=\"Gallery\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showtext\" checked>\n        <header>Images</header>\n\t    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"checkbox\" title=\"No Spacing\" name=\"noSpacing\" checked>\n      \n        <!-- <input type=\"range\" title=\"Spacing\" name=\"spacing\" min=\"0\" max=\"3\" step=\"0.1\" value=\"1\"> -->\n\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <header condition=\"bg.type!==color\">Overlay</header>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n   <div mbr-class=\"{'container': !fullWidth}\">\n        <h3 class=\"mbr-section-title align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><i></i><i><b>PRODUTOS NATURAIS</b></i><i><br></i></h3>\n        <h4 class=\"mbr-section-subtitle align-center pb-4 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">\n            Enter Gallery Subtitle here.\n        </h4>\n        <div class=\"row mbr-gallery\" data-toggle=\"modal\">\n            <div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                   <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/zur-krone-removebg-preview-500x500.png\" alt title>\n                <p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showtext\" data-app-selector=\".mbr-text, .mbr-section-btn\">BEM VINDO A NOSSA LOJA</p><center><i><b>\n<div style=\"float: left; width: 33%;\">\n<div class=\"separator\" style=\"clear: both; text-align: center;\">\n<a href=\"tel:71983193344\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"96\" data-original-width=\"96\" height=\"50\" src=\"@PROJECT_PATH@/assets/images/phone-31105-100x100.png\" width=\"50\" alt title></a></div>\n</div>\n<div style=\"float: left; width: 33%;\">\n<div class=\"separator\" style=\"clear: both; text-align: center;\">\n<a href=\"https://wa.me/5571983193344\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"96\" data-original-width=\"96\" height=\"50\" src=\"@PROJECT_PATH@/assets/images/whichapplication-conversation-email-phone-7097-100x100.png\" width=\"50\" alt title></a></div>\n</div>\n<div style=\"float: left; width: 33%;\">\n<div class=\"separator\" style=\"clear: both; text-align: center;\">\n<img border=\"0\" data-original-height=\"512\" data-original-width=\"512\" height=\"50\" src=\"@PROJECT_PATH@/assets/images/facebook-social-fb-7213-100x100.png\" width=\"50\" alt title></div>\n</div>\n</b></i></center><i><b>\n<br>\n<br>\n              \n   </b></i></div><i><b>\n          <br>\n              <center>\n<div class=\"list-group\">\n  <a href=\"#\" class=\"list-group-item list-group-item-action active\" aria-current=\"true\">\n    PRODUTOS\n  </a>\n  <a href=\"https://store17441987.ecwid.com/FISIOFORT-p225717066\" class=\"list-group-item list-group-item-action\">POMADAS MASSAGENS  </a>\n  <a href=\"#\" class=\"list-group-item list-group-item-action\">EMAGRECEDOR </a>\n  <a href=\"#\" class=\"list-group-item list-group-item-action\">CHÁS</a>\n  <a href=\"#\" class=\"list-group-item list-group-item-action disabled\" tabindex=\"-1\" aria-disabled=\"true\">MUITOS OUTROS EM BREVE</a>\n</div>\n</center></b></i></div></div></div></section></center>",
+          "_anchor": "design-block-0",
           "_isUserblock": true,
           "_sourceTheme": "creativem4",
-          "_cid": "s7ipBGSYrF",
+          "_cid": "s7h9Y8iiJg",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {}
         },
         {
-          "alias": false,
+          "alias": "deltapi-code-editor",
+          "_isSecondary": true,
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@noSpacing)": {
-              ".row": {
-                "margin-left": "0",
-                "margin-right": "0"
-              },
-              ".item": {
-                "padding-left": "0",
-                "padding-right": "0"
-              }
-            },
-            "& when not (@noSpacing)": {
-              ".item": {
-                "padding-bottom": "2rem"
-              }
-            },
-            "@media (max-width: 768px)": {
-              ".carousel-control, .carousel-indicators, .modal .close": {
-                "position": "fixed"
-              }
-            },
-            "@media (max-width: 767px)": {
-              ".mbr-slider .carousel-control": {
-                "top": "auto",
-                "bottom": "20px"
-              },
-              ".mbr-slider > .container .carousel-control": {
-                "margin-bottom": "0"
-              }
-            },
-            ".carousel-indicators": {
-              "bottom": "0",
-              "margin-bottom": "3px",
-              "@media (max-width: 991px)": {
-                "margin-bottom": "3.625rem !important",
-                "padding-left": "2.5rem",
-                "padding-right": "2.5rem"
-              },
-              "@media (max-width: 767px)": {
-                "display": "none"
-              }
-            },
-            ".carousel-indicators .active, .carousel-indicators li": {
-              "width": "7px",
-              "height": "7px",
-              "margin": "3px",
-              "background": "#1b1b1b",
-              "opacity": "0.5",
-              "border": "4px solid #1b1b1b"
-            },
-            ".carousel-indicators .active": {
-              "background": "#fff"
-            },
-            ".carousel-indicators li": {
-              "max-width": "15px",
-              "max-height": "15px",
-              "border-radius": "50%"
-            },
-            ".modal": {
-              "padding-left": "0 !important",
-              "position": "fixed",
-              "overflow": "hidden",
-              "padding-right": "0 !important"
-            },
-            ".modal-dialog": {
-              "margin": "0 auto",
-              "max-width": "100%",
-              "padding-left": "1rem",
-              "padding-right": "1rem"
-            },
-            ".modal-content": {
-              "border-radius": "0",
-              "border": "none",
-              "background": "transparent"
-            },
-            ".modal-body": {
-              "padding": "0",
-              "display": "flex",
-              "align-items": "center",
-              ".carousel-item": {
-                "top": "50%",
-                "transform": "translateY(-50%)"
-              },
-              "img": {
-                "width": "100%",
-                "object-fit": "contain",
-                "max-height": "~\"calc(100vh - 1.75rem)\""
-              }
-            },
-            ".carousel": {
-              "width": "100%"
-            },
-            ".modal-backdrop.in": {
-              "opacity": "0.8"
-            },
-            ".modal.fade .modal-dialog": {
-              "-webkit-transition": "margin-top 0.3s ease-out",
-              "-moz-transition": "margin-top 0.3s ease-out",
-              "-o-transition": "margin-top 0.3s ease-out",
-              "transition": "margin-top 0.3s ease-out"
-            },
-            ".modal.fade .modal-dialog, .modal.in .modal-dialog": {
-              "-webkit-transform": "none",
-              "-ms-transform": "none",
-              "-o-transform": "none",
-              "transform": "none"
-            },
-            ".mbr-gallery .item-wrapper": {
-              "cursor": "pointer"
-            },
-            "a": {
-              "display": "block"
-            },
-            "a.img": {
-              "pointer-events": "none"
+            "background-color": "@bgColor",
+            ".mbr-section": {
+              "text-align": "center",
+              "color": "#fff"
             }
           },
-          "_name": "design-block",
-          "_customHTML": "<section class=\"mbr-gallery gallery5\" group=\"Gallery\" data-bg-video=\"{{bg.type=='video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\"> <mbr-parameters> <header>Size</header> <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\"> <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\"> <header>Show/Hide</header> <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked> <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\"> <input type=\"checkbox\" title=\"Show Text\" name=\"showtext\" checked> <header>Images</header> <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\"> <input type=\"checkbox\" title=\"No Spacing\" name=\"noSpacing\"> <header>Background</header> <fieldset type=\"background\" name=\"bg\" parallax> <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\" parallax> <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected> <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\"> </fieldset> <header condition=\"bg.type!==color\">Overlay</header> <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !=='color'\"> <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !=='color'\"> <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !=='color'\"> </mbr-parameters> <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!=='color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"> </div><div mbr-class=\"{'container': !fullWidth}\"> <h3 class=\"mbr-section-title align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Em Breve</h3> <h4 class=\"mbr-section-subtitle align-center pb-4 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\"> Enter Gallery Subtitle here. </h4> <div class=\"row mbr-gallery\" data-toggle=\"modal\"> <div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\"> <div class=\"item-wrapper\"> <a href=\"https://store17441987.ecwid.com/NEW-GREEN-GOLD-p226611020\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/picasion.com-d7753792e3f443e7a5c3ec879b74da6b.gif\" alt title> </a><p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showtext\" data-app-selector=\".mbr-text, .mbr-section-btn\">Produtos Naturais</p></div></div><div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\"> <div class=\"item-wrapper\"> <a href=\"https://wa.me/5522997441536\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/5-min-1654x1654.png\" alt title data-slide-to=\"1\"> </a><p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showtext\" data-app-selector=\".mbr-text, .mbr-section-btn\">Produtos Naturais</p></div></div><div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\"> <div class=\"item-wrapper\"> <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/6-min-1654x1654.png\" alt title data-slide-to=\"2\"> <p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showtext\" data-app-selector=\".mbr-text, .mbr-section-btn\">Produtos Naturais</p></div></div></div></div></section>",
-          "_cid": "hsxRzwH1DE",
-          "_anchor": "design-block-hsxRzwH1DE",
+          "_name": "custom-html",
+          "_customHTML": "<!-- Card -->\n<div class=\"card promoting-card\">\n\n  <!-- Card content -->\n  <div class=\"card-body d-flex flex-row\">\n\n    <!-- Avatar -->\n    <a href=\"https://store17441987.ecwid.com/FISIOFORT-p225717066\"><img src=\"@PROJECT_PATH@/assets/images/350490526b470b888f-100x100.jpg\" class=\"rounded-circle mr-3\" height=\"50px\" width=\"50px\" alt=\"avatar\" title></a>\n\n    <!-- Content -->\n    <div>\n\n      <!-- Title -->\n      <h4 class=\"card-title font-weight-bold mb-2\">Pomada Fisiofort</h4>\n      <!-- Subtitle -->\n      <p class=\"card-text\"><a href=\"https://store17441987.ecwid.com/FISIOFORT-p225717066\">Por apenas R$12,00</a></p>\n\n    </div>\n\n  </div>\n\n  <!-- Card image -->\n<!-- Card -->\n<div class=\"card promoting-card\">\n\n  <!-- Card content -->\n  <div class=\"card-body d-flex flex-row\">\n\n    <!-- Avatar -->\n    <img src=\"@PROJECT_PATH@/assets/images/1121-03db84bd32f797355015694801240837-1024-10241-9f4e549f422992772a15774165203764-1024-1024-57x50.png\" class=\"rounded-circle mr-3\" height=\"50px\" width=\"50px\" alt=\"avatar\" title>\n\n    <!-- Content -->\n    <div>\n\n      <!-- Title -->\n      <h4 class=\"card-title font-weight-bold mb-2\">New Green</h4>\n      <!-- Subtitle -->\n      <p class=\"card-text\">Em breve</p>\n\n    </div>\n\n  </div>\n\n  <!-- Card image --></div></div>\n<!-- Card -->\n<div class=\"card promoting-card\">\n\n  <!-- Card content -->\n  <div class=\"card-body d-flex flex-row\">\n\n    <!-- Avatar -->\n    <img src=\"@PROJECT_PATH@/assets/images/hand-leaves-leaf-natural-512-50x50.png\" class=\"rounded-circle mr-3\" height=\"50px\" width=\"50px\" alt=\"avatar\" title>\n\n    <!-- Content -->\n    <div>\n\n      <!-- Title -->\n      <h4 class=\"card-title font-weight-bold mb-2\">Chás&nbsp;</h4>\n      <!-- Subtitle -->\n      <p class=\"card-text\">Em breve</p>\n\n    </div>\n\n  </div>\n\n  <!-- Card image --></div>",
+          "_anchor": "custom-html-1",
+          "_isUserblock": true,
+          "_sourceTheme": "creativem4",
+          "_cid": "s7h9ZnY5S5",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -377,38 +254,155 @@
             }
           },
           "_name": "witsec-mailform",
-          "_customHTML": "<section class=\"witsec-mailform mbr-section\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n\n      \t<input type=\"checkbox\" title=\"Show Phone\" name=\"showPhone\" checked>\n      \t<input type=\"checkbox\" title=\"Show reCAPTCHA Terms\" name=\"showTerms\">\n\n        <input type=\"text\" title=\"Subject\" name=\"txtSubject\" value=\"A message from your website.\">  \n        <input type=\"text\" title=\"Success Message\" name=\"txtSuccess\" value=\"Thanks for filling out the form!\">\n        <input type=\"text\" title=\"Error Message\" name=\"txtFail\" value=\"An error occured. Please try again.\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#c1c1c1\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-12 col-lg-8\">\n                <h2 mbr-if=\"showTitle\" class=\"mbr-section-title align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">SEJA REVENDEDOR</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\">\n                    Easily add independent contact forms to your website.\n                </h3>\n          </div>\n        </div>\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"media-container-column col-lg-8\">\n                <form action=\"mail.php\" method=\"post\" class=\"mbr-form\" onsubmit=\"witsecSendMail(this)\">\n                  \t<input type=\"hidden\" name=\"subject\" value=\"{{txtSubject}}\">\n\t                <div class=\"row\">\n                        <div hidden=\"hidden\" class=\"alert alert-success col-12\" witsec-html=\"{{txtSuccess}}\"></div>\n                        <div hidden=\"hidden\" class=\"alert alert-danger col-12\" witsec-html=\"{{txtFail}}\"></div>\n                    </div>\n                    <div class=\"row\">\n                        <div class=\"col-md-4 form-group\" data-for=\"name\" mbr-class=\"{'col-md-6': !showPhone}\">\n                            <label mbr-text mbr-theme-style=\"display-7\" for=\"name\" class=\"form-control-label mbr-fonts-style\">NOME</label>\n                            <input type=\"text\" name=\"name\" data-form-field=\"Name\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\">\n                        </div>\n                        <div class=\"col-md-4 form-group\" mbr-class=\"{'col-md-6': !showPhone}\" data-for=\"email\">\n                            <label mbr-text mbr-theme-style=\"display-7\" for=\"email\" class=\"form-control-label mbr-fonts-style\">EMAIL</label>\n                            <input type=\"email\" name=\"email\" data-form-field=\"Email\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\">\n                        </div>\n                        <div mbr-if=\"showPhone\" class=\"col-md-4 form-group\" data-for=\"phone\">\n                            <label mbr-text mbr-theme-style=\"display-7\" for=\"phone\" class=\"form-control-label mbr-fonts-style\">TELEFONE</label>\n                            <input type=\"tel\" name=\"phone\" data-form-field=\"Phone\" mbr-theme-style=\"display-7\" class=\"form-control\">\n                        </div>\n                        <div data-for=\"message\" class=\"col-md-12 form-group\">\n                            <label mbr-text mbr-theme-style=\"display-7\" for=\"message\" class=\"form-control-label mbr-fonts-style\">DEIXE UMA MENSAGEM</label>\n                            <textarea name=\"message\" data-form-field=\"Message\" mbr-theme-style=\"display-7\" class=\"form-control\"></textarea>\n                        </div>\n                        <div mbr-if=\"showTerms\" class=\"col-md-12 justify-content-center form-group\">\n                            <p class=\"mbr-section-terms mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-html=\"terms\" data-app-edit=\"content\" data-app-selector=\".mbr-section-terms\">\n                              This form uses Google's reCAPTCHA. By continuing you agree to the <a href=\"https://policies.google.com/privacy\" target=\"_blank\">Privacy</a> and <a href=\"https://policies.google.com/terms\" target=\"_blank\">Terms</a>.\n                            </p>\n                        </div>\n                        <div class=\"col-md-12 input-group-btn align-center\" mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrBtnLink,-mbrBtnAdd\"><a type=\"submit\" class=\"btn btn-primary btn-form\" data-app-placeholder=\"Type Text\">ENVIAR</a></div>\n                    </div>\n              </form>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "witsec-mailform-3f",
+          "_customHTML": "<section class=\"witsec-mailform mbr-section\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n\n      \t<input type=\"checkbox\" title=\"Show Phone\" name=\"showPhone\" checked>\n      \t<input type=\"checkbox\" title=\"Show reCAPTCHA Terms\" name=\"showTerms\">\n\n        <input type=\"text\" title=\"Subject\" name=\"txtSubject\" value=\"A message from your website.\">  \n        <input type=\"text\" title=\"Success Message\" name=\"txtSuccess\" value=\"Thanks for filling out the form!\">\n        <input type=\"text\" title=\"Error Message\" name=\"txtFail\" value=\"An error occured. Please try again.\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#c1c1c1\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-12 col-lg-8\">\n                <h2 mbr-if=\"showTitle\" class=\"mbr-section-title align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\">SEJA REVENDEDOR</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\">\n                    Easily add independent contact forms to your website.\n                </h3>\n          </div>\n        </div>\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"media-container-column col-lg-8\">\n                <form action=\"mail.php\" method=\"post\" class=\"mbr-form\" onsubmit=\"witsecSendMail(this)\">\n                  \t<input type=\"hidden\" name=\"subject\" value=\"{{txtSubject}}\">\n\t                <div class=\"row\">\n                        <div hidden=\"hidden\" class=\"alert alert-success col-12\" witsec-html=\"{{txtSuccess}}\"></div>\n                        <div hidden=\"hidden\" class=\"alert alert-danger col-12\" witsec-html=\"{{txtFail}}\"></div>\n                    </div>\n                    <div class=\"row\">\n                        <div class=\"col-md-4 form-group\" data-for=\"name\" mbr-class=\"{'col-md-6': !showPhone}\">\n                            <label mbr-text mbr-theme-style=\"display-7\" for=\"name\" class=\"form-control-label mbr-fonts-style\">NOME</label>\n                            <input type=\"text\" name=\"name\" data-form-field=\"Name\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\">\n                        </div>\n                        <div class=\"col-md-4 form-group\" mbr-class=\"{'col-md-6': !showPhone}\" data-for=\"email\">\n                            <label mbr-text mbr-theme-style=\"display-7\" for=\"email\" class=\"form-control-label mbr-fonts-style\">EMAIL</label>\n                            <input type=\"email\" name=\"email\" data-form-field=\"Email\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\">\n                        </div>\n                        <div mbr-if=\"showPhone\" class=\"col-md-4 form-group\" data-for=\"phone\">\n                            <label mbr-text mbr-theme-style=\"display-7\" for=\"phone\" class=\"form-control-label mbr-fonts-style\">TELEFONE</label>\n                            <input type=\"tel\" name=\"phone\" data-form-field=\"Phone\" mbr-theme-style=\"display-7\" class=\"form-control\">\n                        </div>\n                        <div data-for=\"message\" class=\"col-md-12 form-group\">\n                            <label mbr-text mbr-theme-style=\"display-7\" for=\"message\" class=\"form-control-label mbr-fonts-style\">DEIXE UMA MENSAGEM</label>\n                            <textarea name=\"message\" data-form-field=\"Message\" mbr-theme-style=\"display-7\" class=\"form-control\"></textarea>\n                        </div>\n                        <div mbr-if=\"showTerms\" class=\"col-md-12 justify-content-center form-group\">\n                            <p class=\"mbr-section-terms mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-html=\"terms\" data-app-edit=\"content\" data-app-selector=\".mbr-section-terms\">\n                              This form uses Google's reCAPTCHA. By continuing you agree to the <a href=\"https://policies.google.com/privacy\" target=\"_blank\">Privacy</a> and <a href=\"https://policies.google.com/terms\" target=\"_blank\">Terms</a>.\n                            </p>\n                        </div>\n                        <div class=\"col-md-12 input-group-btn align-center\" mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrBtnLink,-mbrBtnAdd\"><a type=\"submit\" class=\"btn btn-primary btn-form\" data-app-placeholder=\"Type Text\">ENVIAR</a></div>\n                    </div>\n              </form>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "witsec-mailform-3",
           "_isUserblock": true,
           "_sourceTheme": "creativem4",
-          "_cid": "s7iuZNucDm",
+          "_cid": "s7ha0Sedda",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {}
         },
         {
-          "_params": {
-            "HTMLCode": "<script type=\"text/javascript\" async\n  src=\"//l.getsitecontrol.com/y791lm48.js\">\n</script>",
-            "hideOnPublish": true,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
+          "alias": "Singa4real-shop",
+          "_isSecondary": true,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".gold": {
+              "color": "#FFBF00"
+            },
+            ".badge-notify": {
+              "background": "#7f1933",
+              "color": "#ffffff",
+              "position": "relative",
+              "font-size": "14px",
+              "top": "-20px",
+              "right": "10px"
+            },
+            ".headtext": {
+              "font-size": "23px"
+            },
+            ".cart-img": {
+              "width": "40px",
+              "height": "40px"
+            },
+            ".vatshipblock": {
+              "display": "block"
+            },
+            ".vatshipnone": {
+              "display": "none"
+            },
+            ".product": {
+              "border": "1px solid #dddddd"
+            },
+            ".item-gallery": {
+              "padding": "4px"
+            },
+            ".item-gallery img": {
+              "width": "100%",
+              "height": "100%"
+            },
+            ".product-rating": {
+              "font-size": "20px",
+              "margin-bottom": "25px"
+            },
+            ".product-title": {
+              "font-size": "22px"
+            },
+            ".product-desc": {
+              "font-size": "14px"
+            },
+            ".product-price": {
+              "font-size": "22px"
+            },
+            ".product-stock": {
+              "font-size": "20px",
+              "margin-top": "10px"
+            },
+            ".product-info": {
+              "margin-top": "50px"
+            },
+            ".content-wrapper": {
+              "max-width": "1140px",
+              "background": "#fff",
+              "margin": "0 auto",
+              "margin-top": "25px",
+              "margin-bottom": "10px",
+              "border": "0px",
+              "border-radius": "0px"
+            },
+            ".container-fluid": {
+              "max-width": "1140px",
+              "margin": "0 auto"
+            },
+            ".view-wrapper": {
+              "float": "right",
+              "max-width": "70%",
+              "margin-top": "25px"
+            },
+            ".containers": {
+              "max-width": "100%"
+            },
+            "DIV": {
+              "color": "#465052"
+            },
+            ".product_quantity": {
+              "width": "104px",
+              "height": "47px",
+              "border": "solid 1px #e5e5e5",
+              "border-radius": "3px",
+              "overflow": "hidden",
+              "padding-left": "8px",
+              "float": "left",
+              "margin-right": "22px",
+              "padding-top": "-4px",
+              "padding-bottom": "44px",
+              "margin-bottom": "11px"
+            },
+            ".gallery-wrap .img-big-wrap img": {
+              "height": "100%",
+              "width": "100%",
+              "display": "inline-block",
+              "cursor": "zoom-in"
+            },
+            ".gallery-wrap .img-small-wrap .item-gallery": {
+              "width": "60px",
+              "height": "60px",
+              "border": "1px solid #ddd",
+              "margin": "7px 2px",
+              "display": "inline-block",
+              "overflow": "hidden"
+            },
+            ".gallery-wrap .img-small-wrap": {
+              "text-align": "center"
+            },
+            ".gallery-wrap .img-small-wrap img": {
+              "max-width": "100%",
+              "max-height": "100%",
+              "object-fit": "cover",
+              "border-radius": "4px",
+              "cursor": "zoom-in"
+            },
+            ".my-cart-icon-affix": {
+              "position": "fixed",
+              "z-index": "999"
+            }
           },
-          "HTMLCode": "<script type=\"text/javascript\" async\n  src=\"//l.getsitecontrol.com/y791lm48.js\">\n</script>",
-          "alias": "witsec-custom-html",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "witsec-custom-html-block",
-          "_anchor": "witsec-custom-html-block-3g"
+          "_name": "singa4real-shop-details",
+          "_customHTML": "<section mbr-id=\"_anchor_shop_details\" class=\"mbr-section article shop_details\">\n<center>\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n      <input type=\"range\" inline title=\"Image Thumb\" name=\"imgthumb\" min=\"1\" max=\"6\" step=\"1\" value=\"3\">\n      <input type=\"range\" inline title=\"Star Count\" name=\"star\" min=\"0\" max=\"5\" step=\"1\" value=\"4\">\n      <select title=\"Display ID\" name=\"showpid\">\n            <option value=\"1\" selected>Show ID on Product Grid</option>\n            <option value=\"2\">Hide ID on Product Grid</option>\n        </select>\n   \n      <select title=\"Diplay Shipp.\" name=\"addshipping\" condition=\"enableshipping == 1\">\n            <option value=\"1\" selected>Show Shipp. on Product Grid</option>\n            <option value=\"2\">Hide Shipp. on Product Grid</option>\n        </select>\n            <input type=\"text\" title=\"Max Shipping Charge\" name=\"msc\" value=\"40.00\" condition=\"enableshipping == 1\"> \n      <input type=\"text\" title=\"Free Shipping at\" name=\"fsa\" value=\"2000.00\" condition=\"enableshipping == 1\">\n      <hr><header>Vat/Tax</header>\n      <select title=\"Enable Vat\" name=\"enablevat\">\n            <option value=\"1\" selected>Enable</option>\n            <option value=\"2\">Disable</option>\n        </select>\n      <select title=\"Display Vat\" name=\"addvat\" condition=\"enablevat == 1\">\n            <option value=\"1\">Show Vat on Product Grid</option>\n            <option value=\"2\" selected>Hide Vat on Product Grid</option>\n        </select>\n      \n      <select title=\"Vat Usage\" name=\"taxu\" condition=\"enablevat == 1\">\n            <option value=\"1\" selected>Inclusive to Total price</option>\n            <option value=\"2\">Exclusive to Total price</option>\n        </select>\n      \n       <input type=\"text\" title=\"Currency Symbol\" name=\"CurrencyIcon\" value=\"R$\"> \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n \n  <div class=\"container py-5 page-header\">\n    <div><span class=\"headtext\">Loja Grupo Conectado</span><div style=\"float: right; cursor: pointer;\">\n        <span class=\"my-cart-icon\"><a href class=\"cart-img\" alt=\"cart\" title=\"cart\"></a><span class=\"badge badge-notify my-cart-badge scount\"></span></span>\n      \n      </div>\n    </div>\n    <hr>\n  </div>\n  \n  <div class=\"modal fade\" id=\"mycartModal\" role=\"dialog\" aria-labelledby=\"mycartModalLabel\" aria-hidden=\"true\">\n    <div class=\"modal-dialog modal-sm\" style=\"height:auto\" role=\"document\">\n      <div class=\"modal-content\">\n        <div class=\"modal-body\">\n          <p class=\"text-center\">Product Added To Cart.</p>\n\t\t  <div class=\"text-center\">\n          <i class=\"btn btn-primary btn-sm\" data-dismiss=\"modal\">OK</i>\n        </div>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class=\"container configuration\">\n<input type=\"hidden\" name=\"smax\" class=\"smax\" value=\"{{msc}}\">\n<input type=\"hidden\" name=\"sfree\" class=\"sfmax\" value=\"{{fsa}}\">\n<input type=\"hidden\" name=\"taxu\" class=\"taxu\" value=\"{{taxu}}\">\n<input type=\"hidden\" name=\"evat\" class=\"enablevat\" value=\"{{enablevat}}\">\n<input type=\"hidden\" name=\"eshipping\" class=\"enableshipping\" value=\"{{enableshipping}}\">\n</div>\n    <div class=\"content-wrapper cart_item\">\t\n\t\t<div class=\"item-container\">\t\n\t\t\t<div class=\"row\">\t\n\t\t\t\t<div class=\"col-md-6\">\n                  <article class=\"gallery-wrap\"> \n<div class=\"img-big-wrap\">\n  <div> <a href=\"#\"><img id=\"item-display\" src=\"@PROJECT_PATH@/assets/images/supercha-mdtea-1110x1110.png\" alt title></a></div>\n</div> <!-- slider-product.// -->\n<div class=\"img-small-wrap\">\n  <div class=\"item-gallery cart-img\" mbr-if=\"imgthumb > 0\"> <img src=\"@PROJECT_PATH@/assets/images/capturar-332x489.jpg\" onclick=\"myFunction(this);\" alt title> </div>\n  <div class=\"item-gallery\" mbr-if=\"imgthumb > 1\"> <img src=\"@PROJECT_PATH@/assets/images/140c244830dc075241cfd68da460154f-100x133.jpg\" onclick=\"myFunction(this);\" alt title> </div>\n  <div class=\"item-gallery\" mbr-if=\"imgthumb > 2\"> <img src=\"@PROJECT_PATH@/assets/images/9bc1d48113528bd32bfec780b6787501-100x100.jpg\" onclick=\"myFunction(this);\" alt title> </div>\n  <div class=\"item-gallery\" mbr-if=\"imgthumb > 3\"> <img src=\"https://i.imgur.com/nXgI5iT.png\" onclick=\"myFunction(this);\"> </div>\n  <div class=\"item-gallery\" mbr-if=\"imgthumb > 4\"> <img src=\"https://i.imgur.com/nXgI5iT.png\" onclick=\"myFunction(this);\"> </div>\n  <div class=\"item-gallery\" mbr-if=\"imgthumb > 5\"> <img src=\"https://i.imgur.com/nXgI5iT.png\" onclick=\"myFunction(this);\"> </div>\n</div> <!-- slider-nav.// -->\n</article> <!-- gallery-wrap .end// -->\n\t\t\n\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t<div class=\"product-title\"><b mbr-text>Super Chá SB</b></div>\n                  <div class=\"price-detail-wrap price h3 text-warning currency\">\n                    <br>\n                     <div class=\"d-inline\"><span html=\"{{CurrencyIcon}}\"></span></div>\n                    <div class=\"d-inline\"><span class=\"product_price\" mbr-text>40,00</span></div>\n                  </div>\n                  <dl class=\"item-property\">\n  <dt>Observações</dt>\n  <dd><p mbr-text>Com o Super Chá SB você queima a gordura e elimina as toxinas do corpo! Seus componentes auxiliam a desintoxicar e promovem a limpeza do organismo.</p></dd>\n</dl>\n\t\t\t\t\t<hr>\n\t\t\t\t\t<div class=\"product-rating\"><i class=\"fa fa-star gold\" mbr-if=\"star > 0\"></i> <i class=\"fa fa-star gold\" mbr-if=\"star > 1\"></i> <i class=\"fa fa-star gold\" mbr-if=\"star > 2\"></i> <i class=\"fa fa-star gold\" mbr-if=\"star > 3\"></i> <i class=\"fa fa-star gold\" mbr-if=\"star > 4\"></i> </div>\n\t\t\t\t\t<hr>\n\t\t\t\t\t\n              <div class=\"row\">\n     \n                  <div class=\"group col-xs-12 col-md-12\">\n                             <div mbr-class=\"{'vatshipblock': showpid == 1, 'vatshipnone': showpid == 2}\">\n                             <div class=\"d-inline\"><strong>COMPRE AGORA&gt;</strong>&nbsp;&nbsp;</div>\n                            <div class=\"d-inline\"><strong><span class=\"product_id\" mbr-text><a href=\"https://api.whatsapp.com/send?phone=5571983193344&text=EU%20QUERO%20COMPRAR%20SUPER%20CH%C3%81%20FASE%2001%3A%2040%3AREAIS\">CLIK AQUI!!!!</a></span></strong></div></div>\n                           <div mbr-if=\"enablevat == 1\" mbr-class=\"{'vatshipblock': addvat == 1, 'vatshipnone': addvat == 2}\">\n                             <div class=\"d-inline\"><strong>Vat:</strong>&nbsp;&nbsp;</div>\n                            <div class=\"d-inline\"><strong><span html=\"{{CurrencyIcon}}\"></span><span class=\"product_vat\" mbr-text>0</span></strong></div></div>\n                             <div mbr-if=\"enableshipping == 1\" mbr-class=\"{'vatshipblock': addshipping == 1, 'vatshipnone': addshipping == 2}\">\n                            <div class=\"d-inline\"><strong>Shipping:</strong>&nbsp;&nbsp;</div>\n                            <div class=\"d-inline\"><strong><span html=\"{{CurrencyIcon}}\"></span><span class=\"product_shipping\" mbr-text>0</span></strong></div></div>\n                          </div>\n        \n\n                    \n\t\t\t\t</div>\n\t\t\t</div> \n\t\t</div>\n\t\t<div class=\"container-fluid boarder\">\t\t\n\t\t\t<div class=\"col-md-12 product-info mb-3\">\n              <ul class=\"nav nav-tabs nav-justified\" id=\"myTab\" role=\"tablist\">\n  <li class=\"nav-item\">\n    <a class=\"nav-link active\" id=\"home-tab\" data-toggle=\"tab\" href=\"#home\" role=\"tab\" aria-controls=\"home\" aria-selected=\"true\">Acompanha</a>\n  </li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link\" id=\"profile-tab\" data-toggle=\"tab\" href=\"#profile\" role=\"tab\" aria-controls=\"profile\" aria-selected=\"false\">Não pode tomar</a>\n  </li>\n</ul>\n<div class=\"tab-content mb-4\" id=\"myTabContent\">\n  <div class=\"tab-pane fade show active\" id=\"home\" role=\"tabpanel\" aria-labelledby=\"home-tab\">\n    <p>\n  <br>01 - Unidade do Super Chá SB Maravilhas da Terra, cada pacote com 120g\n<br>O Chá Emagrecedor 100% Natural mais vendido do Brasil\n<br>\n<br>O Super Chá SB Maravilhas da Terra, auxilia no tratamento da queima de gordura abdominal, obesidade, celulite, elimina toxinas do organismo, reduz colesterol, ácido úrico, prisão de ventre, impurezas da pele e radiciais livres - responsáveis pelo envelhecimento celular.\n<br>O Chá SB 120g Maravilhas da Terra, é um Mix de ervas que tem na sua composição, a Camomila, o Sene, a Porangaba, a Centelha Asiática, a Cavalinha, a Carqueja e o Capim limão.\n<br>Através da ação Detox e Diurético que ajuda na eliminação das toxinas do organismo melhorando até a sua pele, ele limpa o acúmulo de alimentos do tubo intestinal e isso acelera a queima de gordura localizada no abdômen, por isso o nome Seca Barriga. A partir de 8 horas você já começa a sentir os efeitos do chá SB 120g Maravilhas da Terra.<br></p>\n  </div>\n  <div class=\"tab-pane fade\" id=\"profile\" role=\"tabpanel\" aria-labelledby=\"profile-tab\">\n  <p>\n  <br>Grávidas\n<br>Lactantes\n<br>Quem fez cirurgia a menos de 90 dias\n<br>Quem faz hemodiálise\n<br>Quem faz tratamento para o Câncer.\n<br>Menores de 12 Anos\n<br>Síndrome do intestino irritado\n<br>Doença de Crohn\n<br>Quem tem pressão muito baixa\n<br>Anemia.\n      </p>\n  </div>\n</div>\n              \n\t\t\t\t\n\t\t\t\t<hr>\n\t\t\t</div>\n\t\t</div>\n\t\n</div></div></center></section>",
+          "_cid": "sdS3BWPdR9",
+          "_anchor": "singa4real-shop-details-7",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         }
       ]
     }
