@@ -966,11 +966,16 @@ padding-bottom: (@paddingBottom * 15px);
 }
 .cid-sdYtfV0S23 {
   padding-top: 15px;
-  padding-bottom: 90px;
+  padding-bottom: 30px;
   background-color: #ffffff;
 }
+.cid-sdYtfV0S23 .row {
+  margin-left: 0;
+  margin-right: 0;
+}
 .cid-sdYtfV0S23 .item {
-  padding-bottom: 2rem;
+  padding-left: 0;
+  padding-right: 0;
 }
 @media (max-width: 768px) {
   .cid-sdYtfV0S23 .carousel-control,
