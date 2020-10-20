@@ -879,3 +879,119 @@ background-color: @bgColor;
   color: #fff;
 }
 }
+.cid-sdXDl3jlgR {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #efefef;
+}
+.cid-sdXDl3jlgR .mbr-section {
+  text-align: center;
+  color: #fff;
+}
+.cid-sdXDl3jlgR .showcartimg {
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+}
+.cid-sdXDl3jlgR .image-div {
+  text-align: right;
+}
+.cid-sdXDl3jlgR h3.h3 {
+  text-align: center;
+  margin: 1em;
+  text-transform: capitalize;
+  font-size: 1.7em;
+}
+.cid-sdXDl3jlgR body {
+  background-color: #eeeeee;
+}
+.cid-sdXDl3jlgR .product {
+  padding: 10px;
+  background-color: #fff;
+  position: relative;
+}
+.cid-sdXDl3jlgR .about h4 {
+  margin-bottom: -3px;
+}
+.cid-sdXDl3jlgR .about h3 {
+  color: #c4bc3b;
+}
+.cid-sdXDl3jlgR .about span {
+  font-size: 13px;
+}
+.cid-sdXDl3jlgR .dot {
+  height: 40px;
+  width: 40px;
+  background-color: #c4bc3b;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  cursor: pointer;
+  right: 10%;
+  z-index: 10;
+  bottom: -5%;
+}
+.cid-sdXDl3jlgR .inner-dot {
+  height: 30px;
+  width: 30px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  cursor: pointer;
+}
+.cid-sdXDnvazjN {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #2e2e2e;
+}
+.cid-sdXDnvazjN .mbr-section {
+  text-align: center;
+  color: #fff;
+}
+.cid-sdXDnvazjN .dontinc {
+  display: none;
+}
+.cid-sdXDnvazjN .timage {
+  width: 80px;
+  height: auto;
+}
+.cid-sdXDnvazjN .modal-dialog {
+  overflow-y: initial !important;
+}
+.cid-sdXDnvazjN .modal-body {
+  height: 80vh;
+  overflow-y: auto;
+}
+@media screen and (max-width: 600px) {
+  .cid-sdXDnvazjN .modal-body {
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+}
+.cid-sdXDnvazjN #overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+.cid-sdXDnvazjN #overlaytext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 20px;
+  color: white;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}

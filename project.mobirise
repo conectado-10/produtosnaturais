@@ -47,7 +47,7 @@
     "cookiesAlert": false,
     "gdpr": false,
     "witsec-mailform": false,
-    "uniqCompNum": 22,
+    "uniqCompNum": 24,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png"
   },
@@ -216,7 +216,7 @@
             }
           },
           "_name": "custom-html",
-          "_customHTML": "<!-- Card -->\n<div class=\"card promoting-card\">\n\n  <!-- Card content -->\n  <div class=\"card-body d-flex flex-row\">\n\n    <!-- Avatar -->\n    <a href=\"https://store17441987.ecwid.com/FISIOFORT-p225717066\"><img src=\"@PROJECT_PATH@/assets/images/350490526b470b888f-100x100.jpg\" class=\"rounded-circle mr-3\" height=\"50px\" width=\"50px\" alt=\"avatar\" title></a>\n\n    <!-- Content -->\n    <div>\n\n      <!-- Title -->\n      <h4 class=\"card-title font-weight-bold mb-2\">Pomada Fisiofort</h4>\n      <!-- Subtitle -->\n      <p class=\"card-text\"><a href=\"https://store17441987.ecwid.com/FISIOFORT-p225717066\">Por apenas R$12,00</a></p>\n\n    </div>\n\n  </div>\n\n  <!-- Card image -->\n<!-- Card -->\n<div class=\"card promoting-card\">\n\n  <!-- Card content -->\n  <div class=\"card-body d-flex flex-row\">\n\n    <!-- Avatar -->\n    <img src=\"@PROJECT_PATH@/assets/images/1121-03db84bd32f797355015694801240837-1024-10241-9f4e549f422992772a15774165203764-1024-1024-57x50.png\" class=\"rounded-circle mr-3\" height=\"50px\" width=\"50px\" alt=\"avatar\" title>\n\n    <!-- Content -->\n    <div>\n\n      <!-- Title -->\n      <h4 class=\"card-title font-weight-bold mb-2\">New Green</h4>\n      <!-- Subtitle -->\n      <p class=\"card-text\">R$199,99</p>\n\n    </div>\n\n  </div>\n\n  <!-- Card image --></div></div>\n<!-- Card -->\n<div class=\"card promoting-card\">\n\n  <!-- Card content -->\n  <div class=\"card-body d-flex flex-row\">\n\n    <!-- Avatar -->\n    <a href=\"page1.html\"><img src=\"@PROJECT_PATH@/assets/images/hand-leaves-leaf-natural-512-50x50.png\" class=\"rounded-circle mr-3\" height=\"50px\" width=\"50px\" alt=\"avatar\" title></a>\n\n    <!-- Content -->\n    <div>\n\n      <!-- Title -->\n      <h4 class=\"card-title font-weight-bold mb-2\">Chás&nbsp;</h4>\n      <!-- Subtitle -->\n      <p class=\"card-text\">Emagrecedor</p>\n\n    </div>\n\n  </div>\n\n  <!-- Card image --></div>",
+          "_customHTML": "<!-- Card -->\n<div class=\"card promoting-card\">\n\n  <!-- Card content -->\n  <div class=\"card-body d-flex flex-row\">\n\n    <!-- Avatar -->\n    <a href=\"https://store17441987.ecwid.com/FISIOFORT-p225717066\"><img src=\"@PROJECT_PATH@/assets/images/350490526b470b888f-100x100.jpg\" class=\"rounded-circle mr-3\" height=\"50px\" width=\"50px\" alt=\"avatar\" title></a>\n\n    <!-- Content -->\n    <div>\n\n      <!-- Title -->\n      <h4 class=\"card-title font-weight-bold mb-2\">Pomada Fisiofort</h4>\n      <!-- Subtitle -->\n      <p class=\"card-text\"><a href=\"https://store17441987.ecwid.com/FISIOFORT-p225717066\">Por apenas R$12,00</a></p>\n\n    </div>\n\n  </div>\n\n  <!-- Card image -->\n<!-- Card -->\n<div class=\"card promoting-card\">\n\n  <!-- Card content -->\n  <div class=\"card-body d-flex flex-row\">\n\n    <!-- Avatar -->\n    <img src=\"@PROJECT_PATH@/assets/images/1121-03db84bd32f797355015694801240837-1024-10241-9f4e549f422992772a15774165203764-1024-1024-57x50.png\" class=\"rounded-circle mr-3\" height=\"50px\" width=\"50px\" alt=\"avatar\" title>\n\n    <!-- Content -->\n    <div>\n\n      <!-- Title -->\n      <h4 class=\"card-title font-weight-bold mb-2\">New Green</h4>\n      <!-- Subtitle -->\n      <p class=\"card-text\">R$199,99</p>\n\n    </div>\n\n  </div>\n\n  <!-- Card image --></div></div>\n<!-- Card -->\n<div class=\"card promoting-card\">\n\n  <!-- Card content -->\n  <div class=\"card-body d-flex flex-row\">\n\n    <!-- Avatar -->\n    <a href=\"page1.html\"><img src=\"@PROJECT_PATH@/assets/images/hand-leaves-leaf-natural-512-50x50.png\" class=\"rounded-circle mr-3\" height=\"50px\" width=\"50px\" alt=\"avatar\" title></a>\n\n    <!-- Content -->\n    <div>\n\n      <!-- Title -->\n      <h4 class=\"card-title font-weight-bold mb-2\"><a href=\"page1.html\">Chás</a>&nbsp;</h4>\n      <!-- Subtitle -->\n      <p class=\"card-text\">Emagrecedor</p>\n\n    </div>\n\n  </div>\n\n  <!-- Card image --></div>",
           "_anchor": "custom-html-1",
           "_isUserblock": true,
           "_sourceTheme": "creativem4",
@@ -255,7 +255,153 @@
         "title": "chas",
         "order": 1
       },
-      "components": []
+      "components": [
+        {
+          "alias": "Singa4real-mobishop/components",
+          "_isSecondary": true,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".showcartimg": {
+              "cursor": "pointer",
+              "height": "40px",
+              "width": "40px"
+            },
+            ".image-div": {
+              "text-align": "right"
+            },
+            "h3.h3": {
+              "text-align": "center",
+              "margin": "1em",
+              "text-transform": "capitalize",
+              "font-size": "1.7em"
+            },
+            "body": {
+              "background-color": "#eeeeee"
+            },
+            ".product": {
+              "padding": "10px",
+              "background-color": "#fff",
+              "position": "relative"
+            },
+            ".about h4": {
+              "margin-bottom": "-3px"
+            },
+            ".about h3": {
+              "color": "@tColor"
+            },
+            ".about span": {
+              "font-size": "13px"
+            },
+            ".dot": {
+              "height": "40px",
+              "width": "40px",
+              "background-color": "@tColor",
+              "border-radius": "50%",
+              "display": "flex",
+              "justify-content": "center",
+              "align-items": "center",
+              "position": "absolute",
+              "cursor": "pointer",
+              "right": "10%",
+              "z-index": "10",
+              "bottom": "-5%"
+            },
+            ".inner-dot": {
+              "height": "30px",
+              "width": "30px",
+              "background-color": "#fff",
+              "border-radius": "50%",
+              "display": "flex",
+              "justify-content": "center",
+              "align-items": "center",
+              "position": "absolute",
+              "cursor": "pointer"
+            }
+          },
+          "_name": "furniture",
+          "_customHTML": "<section mbr-id=\"_anchor\" plugins=\"Singa4real-mobishop\" class=\"mbr-section shopfront4 content1\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Theme Color\" name=\"tColor\" value=\"#c4bc3b\">\n       <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n      <input type=\"checkbox\" title=\"Show Cart Image\" name=\"showCart\" checked=\"\">\n      <input type=\"range\" inline=\"\" title=\"Product No\" name=\"ProductCount\" min=\"4\" max=\"32\" step=\"1\" value=\"4\">\n      <select title=\"Product ID\" name=\"Proid\">\n            <option value=\"1\">Update Product ID</option>\n            <option value=\"2\" selected=\"\">Save Product ID</option>\n        </select>\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\" parallax=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#efefef\" selected=\"\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked=\"\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n \n<div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n  \n<div class=\"container mt-5\">\n <div class=\"text-right image-div\" mbr-if=\"showCart\"><img class=\"showcartimg\" data-toggle=\"modal\" data-target=\"#singa4realcartModal\" src=\"https://image.flaticon.com/icons/png/512/126/126083.png\"></div>    \n      <div class=\"border-bottom mb-3\">\n    <h3 class=\"h3\" mbr-if=\"showTitle\">Furniture Shop Block</h3>\n      </div>  \n    <div class=\"row d-flex justify-content-center g-1\" mbr-list=\"\" mbr-list-grow=\"ProductCount\">\n        <div class=\"col-md-6 col-sm-12 col-lg-3 cart-item mt-3\">\n            <div class=\"product text-center\"> <img src=\"https://i.imgur.com/dzyiJS2.jpg\" width=\"100%\">\n               <input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n                      <span mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text=\"\">P005</span>\n                <div class=\"about text-left px-3\">\n                    <h4>Standron Chair</h4> <span class=\"text-muted\" mbr-text=\"\">Home decor</span>\n                    <h3>$230</h3>\n                </div> <span class=\"dot\"><span class=\"inner-dot singa4real-add-to-cart\"><i class=\"fa fa-plus\"></i></span></span>\n            </div>\n        </div>\n        <div class=\"col-md-6 col-sm-12 col-lg-3 cart-item mt-3\">\n            <div class=\"product text-center\"> <img src=\"https://i.imgur.com/7BwBYPB.jpg\" width=\"100%\">\n               <input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n                      <span mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text=\"\">P006</span>\n                <div class=\"about text-left px-3\">\n                    <h4>Trodon Chair</h4> <span class=\"text-muted\" mbr-text=\"\">Home decor</span>\n                    <h3>$220</h3>\n                </div> <span class=\"dot\"><span class=\"inner-dot singa4real-add-to-cart\"><i class=\"fa fa-plus\"></i></span></span>\n            </div>\n        </div>\n        <div class=\"col-md-6 col-sm-12 col-lg-3 cart-item mt-3\">\n            <div class=\"product text-center\"> <img src=\"https://i.imgur.com/HjkIPFZ.jpg\" width=\"100%\">\n               <input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n                      <span mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text=\"\">P007</span>\n                <div class=\"about text-left px-3\">\n                    <h4>Dura Chair</h4> <span class=\"text-muted\" mbr-text=\"\">Home decor</span>\n                    <h3>$299</h3>\n                </div> <span class=\"dot\"><span class=\"inner-dot singa4real-add-to-cart\"><i class=\"fa fa-plus\"></i></span></span>\n            </div>\n        </div>\n      <div class=\"col-md-6 col-sm-12 col-lg-3 cart-item mt-3\">\n            <div class=\"product text-center\"> <img src=\"https://i.imgur.com/7BwBYPB.jpg\" width=\"100%\">\n               <input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n                      <span mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text=\"\">P008</span>\n                <div class=\"about text-left px-3\">\n                    <h4>Trodon2 Chair</h4> <span class=\"text-muted\" mbr-text=\"\">Home decor</span>\n                    <h3>$250</h3>\n                </div> <span class=\"dot\"><span class=\"inner-dot singa4real-add-to-cart\"><i class=\"fa fa-plus\"></i></span></span>\n            </div>\n        </div>\n      \n    </div>\n</div>\n  \n <div mbr-text=\"\" class=\"text-center mt-5\"> <a href=\"https://realtime.com.ng/extensions.php\" target=\"_blank\">Powered By MobiShop</a></div>\n</section>",
+          "_cid": "sdXDl3jlgR",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "furniture-m"
+        },
+        {
+          "alias": "Singa4real-mobishop/components",
+          "_isSecondary": true,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".dontinc": {
+              "display": "none"
+            },
+            ".timage": {
+              "width": "80px",
+              "height": "auto"
+            },
+            ".modal-dialog": {
+              "overflow-y": "initial !important"
+            },
+            ".modal-body": {
+              "height": "80vh",
+              "overflow-y": "auto"
+            },
+            "@media screen and (max-width: 600px)": {
+              ".modal-body": {
+                "padding-left": "1px",
+                "padding-right": "1px"
+              }
+            },
+            "#overlay": {
+              "position": "fixed",
+              "display": "none",
+              "width": "100%",
+              "height": "100%",
+              "top": "0",
+              "left": "0",
+              "right": "0",
+              "bottom": "0",
+              "background-color": "rgba(0, 0, 0, 0.5)",
+              "z-index": "2",
+              "cursor": "pointer"
+            },
+            "#overlaytext": {
+              "position": "absolute",
+              "top": "50%",
+              "left": "50%",
+              "font-size": "20px",
+              "color": "white",
+              "transform": "translate(-50%, -50%)",
+              "-ms-transform": "translate(-50%, -50%)"
+            }
+          },
+          "_name": "shop-cart",
+          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\" plugins=\"Singa4real-mobishop\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"12\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#2e2e2e\">\n      <input type=\"checkbox\" title=\"Show Notiication\" name=\"hideinfo\" checked>\n      \n    <!-- End block parameters -->\n    </mbr-parameters> \n  <div mbr-class=\"{'dontinc': isPublish}\" class=\"container pt-5 tdive\">\n   <img src=\"https://i.imgur.com/LrlxxUR.jpg\" class=\"timage\">\n     <br>\n  </div>\n <div style=\"padding:1rem;color:#fff\" mbr-if=\"hideinfo\">\n   <div class=\"align-center p-5\" mbr-text>\n     <span mbr-text>\n     This is a server side app connector, developed be Mr Singa4real, to help mobirise users build an &nbsp;ecommerce website, this connector need a PHP Enabled server to function.<br><br><b> Note:</b>&nbsp; The work of this connector is to connect the Mobishop backend and the Frontend, So for you to be able to execute a command to the backend of mobishop, you need to add one coonector to the page to activate the conection between the backend and frontend. </span><br><br><span mbr-text>&nbsp;For more information about the this conntector, let's discuss about it on Mobirise forum or contact me on my website : https://www.realtime.com.ng. &nbsp;<br>Also note that your need to disable this Notification via the Setting Cog before publishing your website and also the image on this block is not vissible when publish. &nbsp;<br><br>I would have Sell this extension and make alot of money considering the time spent, strees pass through and wealth of programing knowlegde invested on this project, But on a second thought &nbsp;i said NO, &nbsp;You are free to use this extension to build unlimited number of ecommerce website for your yourself and client(s) &nbsp;for a charge fee and keep all the charged fee without limitation. But Nobody is permitted to Sale this extension or use the source code or some parts of source code of this extension for commercial purposes without the the approval of Singa4real. &nbsp;Just what Singa4real ask from you is your support by buying a cup(s) of coffee using this link: &nbsp;<a href=\"https://www.buymeacoffee.com/singa4real\">https://www.buymeacoffee.com/singa4real</a>&nbsp;and if you can, leave the link back on the shop block &nbsp;footer and i will be happier.</span><br><br><span mbr-text>Enjoy MobiShop, more is comming.</span><br><span mbr-text>From Mr Singa4real</span></div>\n   </div>\n   <div id=\"overlay\" onclick=\"overlayoff()\">\n  <div id=\"overlaytext\">Adding To cart..</div>\n</div> \n  <div class=\"modal fade\" id=\"singa4realcartModal\" tabindex=\"-1\" aria-labelledby=\"singa4realcartModal\" aria-modal=\"true\" role=\"dialog\">\n    <div class=\"modal-dialog modal-lg\" style=\"height:auto\" role=\"document\">\n        <div class=\"modal-content\">\n            <div class=\"modal-header\">\n                <h6 class=\"modal-title\" id=\"exampleModalLabel\">Order Cart</h6>\n                <button type=\"button\" class=\"close\" aria-label=\"Close\" data-dismiss=\"modal\">\n                    <span aria-hidden=\"true\">×</span>\n                </button>\n            </div>\n            <div class=\"modal-body table-responsive\">\n             <iframe id=\"ifrm\" src=\"./mobishop/cart.php\" frameborder=\"0\" onload=\"autoResize('ifrm')\" style=\"width: 100%; height:100%;\"></iframe> \n            </div>\n           \n        </div>\n    </div>\n</div>\n<input type=\"hidden\" name=\"upload\" value=\"./mobishop/cart.php\" id=\"rcurls\">  \n  \n <div class=\"modal fade\" id=\"singa4realinvoiceModal\" tabindex=\"-1\" aria-labelledby=\"singa4realinvoiceModal\" aria-modal=\"true\" role=\"dialog\">\n    <div class=\"modal-dialog modal-lg\" style=\"height:auto\" role=\"document\">\n        <div class=\"modal-content\">\n            <div class=\"modal-header\">\n                <h6 class=\"modal-title\" id=\"exampleModalLabel2\">Invoice Generator</h6>\n                <button type=\"button\" class=\"close\" aria-label=\"Close\" data-dismiss=\"modal\">\n                    <span aria-hidden=\"true\">×</span>\n                </button>\n            </div>\n            <div class=\"modal-body invoice-content\">\n             \n            </div>\n           \n        </div>\n    </div>\n</div> \n  \n <div class=\"modal fade\" id=\"singa4realtrackModal\" tabindex=\"-1\" aria-labelledby=\"singa4realtrackModal\" aria-modal=\"true\" role=\"dialog\">\n    <div class=\"modal-dialog modal-lg\" style=\"height:auto\" role=\"document\">\n        <div class=\"modal-content\">\n            <div class=\"modal-header\">\n                <h6 class=\"modal-title\" id=\"exampleModalLabel3\">Track Order</h6>\n                <button type=\"button\" class=\"close\" aria-label=\"Close\" data-dismiss=\"modal\">\n                    <span aria-hidden=\"true\">×</span>\n                </button>\n            </div>\n            <div class=\"modal-body track-content\">\n             \n            </div>\n           \n        </div>\n    </div>\n</div> \n</section>",
+          "_cid": "sdXDnvazjN",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "shop-cart-n"
+        }
+      ]
     }
   }
 }
