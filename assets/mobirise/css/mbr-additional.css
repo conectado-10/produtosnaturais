@@ -870,13 +870,13 @@ background-color: @bgColor;
 }
 
 .cid-sdY2pUJblb {
-@paddingTop: 6;
-@paddingBottom: 6;
+@paddingTop: 2;
+@paddingBottom: 1;
 @widthControlspacer: true;
-@cardsGap: 2;
+@cardsGap: 4;
 @showTitle: true;
-@showSubtitle: true;
-@cardButtons: true;
+@showSubtitle: false;
+@cardButtons: false;
 @btnfontSize: 3;
 @btnColor: #003749;
 @btnText: #ffffff;
@@ -887,12 +887,12 @@ background-color: @bgColor;
 @showText: true;
 @showvideoTitle: true;
 @showvideoSubtitle: true;
-@cardsAmount: 8;
-@cardsDesktop: 4;
+@cardsAmount: 1;
+@cardsDesktop: 1;
 @cardsTab: 2;
 @showBorder: true;
-@crdBordthick: 0;
-@crdBordrad: 0;
+@crdBordthick: 1;
+@crdBordrad: 1;
 @crdBg: true;
 @crdColor: #f2f2f0;
 @uname__23: "file:///C:/Users/bacho/Documents/GitHub/washing/assets/images/background5.jpg";
@@ -1036,6 +1036,108 @@ P {
   }
 }
 }
+
+.cid-sdYendTNt2 {
+@paddingTop: 6;
+@paddingBottom: 6;
+@showTitle: true;
+@showSubtitle: true;
+@showName: true;
+@showRole: true;
+@showSocial: true;
+@bgCard: true;
+@cardColor: #efefef;
+@countCards: "1";
+@socIcons: "1";
+@uname__11: "../../app/themes/mobirise4/components/team1/../_images/background5.jpg";
+@uname__12: true;
+@uname__13: #ffffff;
+@bg-value: #ffffff;
+@bg-type: "color";
+@bg-color-value: #ffffff;
+@bg-parallax: false;
+@overlay: false;
+@overlayColor: #232323;
+@overlayOpacity: 0.4;
+
+padding-top: (@paddingTop * 15px);
+padding-bottom: (@paddingBottom * 15px);
+& when (@bg-type = 'color') {
+  background-color: @bg-value;
+}
+& when (@bg-type = 'image') {
+  background-image: url(../../../@bg-value);
+}
+.mbr-section-subtitle {
+  color: #767676;
+}
+.media-row {
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+.team-item {
+  transition: all .2s;
+  margin-bottom: 2rem;
+  .item-image img {
+    width: 100%;
+  }
+  .item-name {
+    p {
+      margin-bottom: 0;
+    }
+  }
+  .item-role {
+    p {
+      margin-bottom: 0;
+    }
+  }
+  .item-social {
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    -webkit-flex-wrap: wrap;
+    -webkit-justify-content: center;
+    .socicon {
+      color: #232323;
+      font-size: 17px;
+    }
+  }
+  .item-caption {
+    & when (@bgCard) {
+      background: @cardColor;
+    }
+  }
+}
+}
+
+.cid-sdYhPLH8zK {
+@paddingTop: 2;
+@paddingBottom: 2;
+@reveal: false;
+@uname__7: "../../app/themes/mobirise4/components/footer6/../_images/background5.jpg";
+@uname__8: false;
+@uname__9: #2e2e2e;
+@bg-value: #2e2e2e;
+@bg-type: "color";
+@bg-color-value: #2e2e2e;
+@bg-parallax: false;
+@overlay: true;
+@overlayColor: #232323;
+@overlayOpacity: 0.8;
+
+padding-top: (@paddingTop * 15px);
+padding-bottom: (@paddingBottom * 15px);
+& when (@bg-type = 'image') {
+  background-image: url(../../../@bg-value);
+}
+& when (@bg-type = 'color') {
+  background-color: @bg-value;
+}
+}
+
+#witsec-custom-html-block-z {
+}
 .cid-sdXDl3jlgR {
   padding-top: 15px;
   padding-bottom: 0px;
@@ -1103,4 +1205,9 @@ P {
 }
 .cid-sdXDl3jlgR H3 {
   text-align: left;
+}
+.cid-sdYhPLH8zK {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #2e2e2e;
 }
