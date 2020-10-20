@@ -869,36 +869,11 @@ background-color: @bgColor;
 }
 }
 
-.cid-sdYhPLH8zK {
-@paddingTop: 2;
-@paddingBottom: 2;
-@reveal: false;
-@uname__7: "../../app/themes/mobirise4/components/footer6/../_images/background5.jpg";
-@uname__8: false;
-@uname__9: #2e2e2e;
-@bg-value: #2e2e2e;
-@bg-type: "color";
-@bg-color-value: #2e2e2e;
-@bg-parallax: false;
-@overlay: true;
-@overlayColor: #232323;
-@overlayOpacity: 0.8;
-
-padding-top: (@paddingTop * 15px);
-padding-bottom: (@paddingBottom * 15px);
-& when (@bg-type = 'image') {
-  background-image: url(../../../@bg-value);
-}
-& when (@bg-type = 'color') {
-  background-color: @bg-value;
-}
-}
-
 #witsec-custom-html-block-z {
 }
 
 .cid-sdYwlTS8Fj {
-@paddingTop: 6;
+@paddingTop: 3;
 @paddingBottom: 6;
 @showTitle: false;
 @showSubtitle: true;
@@ -908,7 +883,7 @@ padding-bottom: (@paddingBottom * 15px);
 @bgCard: true;
 @cardColor: #ffffff;
 @countCards: "1";
-@socIcons: "4";
+@socIcons: "1";
 @uname__11: "../../app/themes/mobirise4/components/team1/../_images/background5.jpg";
 @uname__12: true;
 @uname__13: #ffffff;
@@ -968,6 +943,31 @@ padding-bottom: (@paddingBottom * 15px);
       background: @cardColor;
     }
   }
+}
+}
+
+.cid-sdYhPLH8zK {
+@paddingTop: 2;
+@paddingBottom: 2;
+@reveal: false;
+@uname__7: "../../app/themes/mobirise4/components/footer6/../_images/background5.jpg";
+@uname__8: false;
+@uname__9: #2e2e2e;
+@bg-value: #2e2e2e;
+@bg-type: "color";
+@bg-color-value: #2e2e2e;
+@bg-parallax: false;
+@overlay: true;
+@overlayColor: #232323;
+@overlayOpacity: 0.8;
+
+padding-top: (@paddingTop * 15px);
+padding-bottom: (@paddingBottom * 15px);
+& when (@bg-type = 'image') {
+  background-image: url(../../../@bg-value);
+}
+& when (@bg-type = 'color') {
+  background-color: @bg-value;
 }
 }
 .cid-sdXDl3jlgR {
