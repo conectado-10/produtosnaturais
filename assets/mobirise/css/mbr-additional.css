@@ -872,28 +872,24 @@ background-color: @bgColor;
 #witsec-custom-html-block-z {
 }
 
-.cid-sdYwlTS8Fj {
-@paddingTop: 3;
-@paddingBottom: 6;
+.cid-ZLhvofOWKW {
+@paddingTop: 1;
+@paddingBottom: 1;
 @showTitle: false;
 @showSubtitle: true;
-@showName: true;
-@showRole: true;
-@showSocial: true;
-@bgCard: true;
-@cardColor: #ffffff;
-@countCards: "1";
-@socIcons: "1";
-@uname__11: "../../app/themes/mobirise4/components/team1/../_images/background5.jpg";
-@uname__12: true;
-@uname__13: #ffffff;
+@showtext: true;
+@fullWidth: false;
+@noSpacing: true;
+@uname__14: "../../app/themes/mobirise4/components/design-block/../_images/background5.jpg";
+@uname__15: true;
+@uname__16: #ffffff;
 @bg-value: #ffffff;
 @bg-type: "color";
 @bg-color-value: #ffffff;
 @bg-parallax: false;
-@overlay: false;
-@overlayColor: #232323;
-@overlayOpacity: 0.4;
+@overlay: true;
+@overlayColor: #efefef;
+@overlayOpacity: 0.8;
 
 padding-top: (@paddingTop * 15px);
 padding-bottom: (@paddingBottom * 15px);
@@ -903,46 +899,120 @@ padding-bottom: (@paddingBottom * 15px);
 & when (@bg-type = 'image') {
   background-image: url(../../../@bg-value);
 }
-.mbr-section-subtitle {
-  color: #767676;
+& when (@noSpacing) {
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .item {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
-.media-row {
-  display: -webkit-flex;
-  justify-content: center;
-  -webkit-justify-content: center;
+& when not (@noSpacing) {
+  .item {
+    padding-bottom: 2rem;
+  }
 }
-.team-item {
-  transition: all .2s;
-  margin-bottom: 2rem;
-  .item-image img {
+@media (max-width: 768px) {
+  .carousel-control, .carousel-indicators, .modal .close {
+    position: fixed;
+  }
+}
+@media (max-width: 767px) {
+  .mbr-slider .carousel-control {
+    top: auto;
+    bottom: 20px;
+  }
+  .mbr-slider > .container .carousel-control {
+    margin-bottom: 0;
+  }
+}
+.carousel-indicators {
+  bottom: 0;
+  margin-bottom: 3px;
+  @media (max-width: 991px) {
+    margin-bottom: 3.625rem !important;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
+.carousel-indicators .active, .carousel-indicators li {
+  width: 7px;
+  height: 7px;
+  margin: 3px;
+  background: #1b1b1b;
+  opacity: 0.5;
+  border: 4px solid #1b1b1b;
+}
+.carousel-indicators .active {
+  background: #fff;
+}
+.carousel-indicators li {
+  max-width: 15px;
+  max-height: 15px;
+  border-radius: 50%;
+}
+.modal {
+  padding-left: 0 !important;
+  position: fixed;
+  overflow: hidden;
+  padding-right: 0 !important;
+}
+.modal-dialog {
+  margin: 0 auto;
+  max-width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.modal-content {
+  border-radius: 0;
+  border: none;
+  background: transparent;
+}
+.modal-body {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  .carousel-item {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  img {
     width: 100%;
+    object-fit: contain;
+    max-height: ~"calc(100vh - 1.75rem)";
   }
-  .item-name {
-    p {
-      margin-bottom: 0;
-    }
-  }
-  .item-role {
-    p {
-      margin-bottom: 0;
-    }
-  }
-  .item-social {
-    display: -webkit-flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    -webkit-flex-wrap: wrap;
-    -webkit-justify-content: center;
-    .socicon {
-      color: #232323;
-      font-size: 17px;
-    }
-  }
-  .item-caption {
-    & when (@bgCard) {
-      background: @cardColor;
-    }
-  }
+}
+.carousel {
+  width: 100%;
+}
+.modal-backdrop.in {
+  opacity: 0.8;
+}
+.modal.fade .modal-dialog {
+  -webkit-transition: margin-top 0.3s ease-out;
+  -moz-transition: margin-top 0.3s ease-out;
+  -o-transition: margin-top 0.3s ease-out;
+  transition: margin-top 0.3s ease-out;
+}
+.modal.fade .modal-dialog, .modal.in .modal-dialog {
+  -webkit-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+}
+.mbr-gallery .item-wrapper {
+  cursor: pointer;
+}
+a {
+  display: block;
+}
+a.img {
+  pointer-events: none;
 }
 }
 
