@@ -869,28 +869,26 @@ background-color: @bgColor;
 }
 }
 
-.cid-sdYendTNt2 {
+.cid-sdYqG054Wq {
 @paddingTop: 6;
 @paddingBottom: 6;
 @showTitle: true;
-@showSubtitle: true;
+@showSubtitle: false;
+@showImages: true;
 @showName: true;
-@showRole: true;
-@showSocial: true;
-@bgCard: true;
-@cardColor: #efefef;
-@countCards: "1";
-@socIcons: "1";
-@uname__11: "../../app/themes/mobirise4/components/team1/../_images/background5.jpg";
-@uname__12: true;
-@uname__13: #ffffff;
+@showBio: true;
+@cardsColor: #ffffff;
+@TestimonialsCount: "1";
+@uname__10: "../../app/themes/mobirise4/components/testimonials1/../_images/background2.jpg";
+@uname__11: false;
+@uname__12: #ffffff;
 @bg-value: #ffffff;
 @bg-type: "color";
 @bg-color-value: #ffffff;
 @bg-parallax: false;
-@overlay: false;
-@overlayColor: #232323;
-@overlayOpacity: 0.4;
+@overlay: true;
+@overlayColor: #efefef;
+@overlayOpacity: 0.8;
 
 padding-top: (@paddingTop * 15px);
 padding-bottom: (@paddingBottom * 15px);
@@ -903,42 +901,56 @@ padding-bottom: (@paddingBottom * 15px);
 .mbr-section-subtitle {
   color: #767676;
 }
-.media-row {
-  display: -webkit-flex;
-  justify-content: center;
-  -webkit-justify-content: center;
+.media-container-row {
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
-.team-item {
-  transition: all .2s;
-  margin-bottom: 2rem;
-  .item-image img {
-    width: 100%;
+.mbr-text {
+  color: #767676;
+}
+.mbr-author-desc {
+  display: block;
+  color: #767676;
+}
+.mbr-author-name {
+  color: #767676;
+}
+.mbr-testimonial {
+  .panel-item {
+    background-color: @cardsColor;
   }
-  .item-name {
-    p {
-      margin-bottom: 0;
+  .card-block {
+    -webkit-flex-grow: 0;
+    flex-grow: 0;
+    padding: 2.4rem 2.4rem 0 2.4rem;
+    .testimonial-photo {
+      display: inline-block;
+      width: 120px;
+      height: 120px;
+      margin-bottom: 1.6rem;
+      overflow: hidden;
+      border-radius: 50%;
+      img {
+        width: 100%;
+        min-width: 100%;
+        min-height: 100%;
+      }
     }
   }
-  .item-role {
-    p {
-      margin-bottom: 0;
-    }
+  .card-footer {
+    padding-bottom: 2.4rem;
+    border-top: 0;
+    padding-top: 1rem;
+    word-wrap: break-word;
+    word-break: break-word;
+    background: none;
   }
-  .item-social {
-    display: -webkit-flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    -webkit-flex-wrap: wrap;
-    -webkit-justify-content: center;
-    .socicon {
-      color: #232323;
-      font-size: 17px;
-    }
-  }
-  .item-caption {
-    & when (@bgCard) {
-      background: @cardColor;
-    }
+}
+@media (max-width: 300px) {
+  .testimonial-photo {
+    width: 100% !important;
+    height: auto !important;
   }
 }
 }
