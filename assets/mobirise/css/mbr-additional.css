@@ -868,21 +868,10 @@ background-color: @bgColor;
   color: #fff;
 }
 }
-
-.cid-sdTVFRM8Xg {
-
-padding-top: (@paddingTop * 15px);
-padding-bottom: (@paddingBottom * 15px);
-background-color: @bgColor;
-.mbr-section {
-  text-align: center;
-  color: #fff;
-}
-}
 .cid-sdXDl3jlgR {
   padding-top: 15px;
   padding-bottom: 0px;
-  background-color: #efefef;
+  background-color: #879a9f;
 }
 .cid-sdXDl3jlgR .mbr-section {
   text-align: center;
@@ -943,4 +932,7 @@ background-color: @bgColor;
   align-items: center;
   position: absolute;
   cursor: pointer;
+}
+.cid-sdXDl3jlgR H3 {
+  text-align: right;
 }
