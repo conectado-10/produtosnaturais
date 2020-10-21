@@ -334,7 +334,7 @@
               "top": "-4 px"
             },
             ".fa": {
-              "color": "@iconColor"
+              "color": "@quoteColor"
             },
             ".card-footer .fa": {
               "font-size": "20px !important"
@@ -349,10 +349,6 @@
             },
             "P": {
               "color": "#000000"
-            },
-            "h6": {
-              "padding-top": "5px",
-              "@quoteColor": "5px"
             }
           },
           "_name": "design-block",
