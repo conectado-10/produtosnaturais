@@ -961,7 +961,7 @@ P {
 }
 h6 {
   padding-top: 5px;
-  padding-bottom: 5px;
+  @quoteColor: 5px;
 }
 }
 
@@ -991,7 +991,7 @@ padding-bottom: (@paddingBottom * 15px);
 }
 .cid-sdXDl3jlgR {
   padding-top: 15px;
-  padding-bottom: 0px;
+  padding-bottom: 15px;
   background-color: #879a9f;
 }
 .cid-sdXDl3jlgR .mbr-section {
