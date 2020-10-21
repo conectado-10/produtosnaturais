@@ -529,47 +529,6 @@ blockquote {
     }
 }
 
-.form2 {
-    .form-control {
-        & when (@isRoundedButtons) {
-            border-top-left-radius: 100px;
-            border-bottom-left-radius: 100px;
-        }
-    }
-
-    .input-group-btn a.btn when(@isRoundedButtons) {
-        border-top-left-radius: 0 !important;
-        border-bottom-left-radius: 0 !important;
-    }
-
-    .input-group-btn button[type="submit"] when(@isRoundedButtons) {
-        border-top-left-radius: 0 !important;
-        border-bottom-left-radius: 0 !important;
-    }
-}
-
-.form3 {
-    input[type="email"] when (@isRoundedButtons) {
-        border-radius: 100px !important;
-    }
-}
-
-@media (max-width: 349px) {
-    .form2 {
-        input[type="email"] when (@isRoundedButtons) {
-            border-radius: 100px !important;
-        }
-
-        .input-group-btn a.btn when (@isRoundedButtons) {
-            border-radius: 100px !important;
-        }
-
-        .input-group-btn button[type="submit"] when (@isRoundedButtons) {
-            border-radius: 100px !important;
-        }
-    }
-}
-
 @media (max-width: 767px) {
     .btn {
         font-size: .75rem !important;
@@ -1010,7 +969,7 @@ h6 {
 @paddingTop: 2;
 @paddingBottom: 2;
 @reveal: false;
-@uname__7: "../../app/themes/mobirise4/components/footer6/../_images/background5.jpg";
+@uname__7: "file:///C:/Users/bacho/AppData/Local/Mobirise.com/Mobirise/sintoniabarra_0040gmail_002ecom/addons/mobirise4/components/footer6/../_images/background5.jpg";
 @uname__8: false;
 @uname__9: #2e2e2e;
 @bg-value: #2e2e2e;

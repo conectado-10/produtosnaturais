@@ -48,7 +48,7 @@
     "gdpr": false,
     "witsec-mailform": false,
     "uniqCompNum": 41,
-    "versionPublish": "4.12.4",
+    "versionPublish": "5.2.0",
     "screenshot": "screenshot.png"
   },
   "pages": {
